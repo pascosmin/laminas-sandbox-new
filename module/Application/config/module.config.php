@@ -31,11 +31,35 @@ return [
                     ],
                 ],
             ],
+            'api-hello' => [
+                'type' => Segment::class,
+                'options' => [
+                    'route' => '/api/hello[/:name]',
+                    'constraints' => [
+                        'name' => '[a-zA-Z0-9_-]*',
+                    ],
+                    'defaults' => [
+                        'controller' => Controller\ApiController::class,
+                        'action' => 'hello',
+                    ],
+                ],
+            ],
+            'api-create' => [
+                'type' => Literal::class,
+                'options' => [
+                    'route' => '/api/create',
+                    'defaults' => [
+                        'controller' => Controller\ApiController::class,
+                        'action' => 'create',
+                    ],
+                ],
+            ],
         ],
     ],
     'controllers' => [
         'factories' => [
             Controller\IndexController::class => InvokableFactory::class,
+            Controller\ApiController::class => InvokableFactory::class,
         ],
     ],
     'view_manager' => [

@@ -10,17 +10,8 @@ class Module
 {
     function onBootstrap($e): void
     {
-        //var_dump("we are in");
-        $events = new EventManager();
-        $events->attach('hack_detected', function ($e) {
-            //send email
-            var_dump('Hack has been detected');
-        });
-
-
-
-        $params = []; // define parameters if needed, or adjust as necessary
-        $events->trigger('hack_detected', null);
+        // Bootstrap hook - keep empty or attach real listeners here.
+        // Avoid side-effects like var_dump during normal request handling.
     }
 
     public function getConfig(): array

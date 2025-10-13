@@ -48,10 +48,16 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a
-                                class="nav-link active"
-                                aria-current="page"
+                                class="nav-link"
                                 href="<?= $this->url('home') ?>"
                             >Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="<?= $this->url('application', ['action' => 'about']) ?>"
+                            >About
                             </a>
                         </li>
                     </ul>

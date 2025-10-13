@@ -1,0 +1,56 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+?>
+<div class="p-5 mb-4 bg-light rounded-3">
+    <h1 class="display-4">About Us</h1>
+    
+    <p class="lead">
+        <?= $this->escapeHtml($message) ?>
+    </p>
+
+    <hr class="my-4">
+
+    <p>
+        This is a custom about page built with Laminas MVC framework. 
+        You can add any content here - company information, team details, 
+        mission statement, or anything else you'd like to share.
+    </p>
+
+    <a class="btn btn-primary btn-lg" href="<?= $this->url('home') ?>">
+        &laquo; Back to Home
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h3>Our Mission</h3>
+            </div>
+            <div class="card-body">
+                <p>
+                    Building amazing web applications with modern PHP frameworks
+                    and following best practices for clean, maintainable code.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h3>Technologies</h3>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>Laminas MVC Framework</li>
+                    <li>PHP 8+</li>
+                    <li>Bootstrap 5</li>
+                    <li>Modern Development Tools</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

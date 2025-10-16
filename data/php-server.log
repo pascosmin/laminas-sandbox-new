@@ -17,3 +17,48 @@
 [Thu Oct 16 09:56:46 2025] 127.0.0.1:54954 Accepted
 [Thu Oct 16 09:56:46 2025] 127.0.0.1:54954 [200]: GET /img/favicon.ico
 [Thu Oct 16 09:56:46 2025] 127.0.0.1:54954 Closing
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34412 Accepted
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34412 [200]: GET /application/about
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34412 Closing
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34428 Accepted
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34428 [200]: GET /css/bootstrap.min.css
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34428 Closing
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34442 Accepted
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34446 Accepted
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34460 Accepted
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34442 [200]: GET /css/style.css
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34442 Closing
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34446 [200]: GET /js/bootstrap.min.js
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34460 [200]: GET /img/laminas-logo.svg
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34446 Closing
+[Thu Oct 16 09:58:24 2025] 127.0.0.1:34460 Closing
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34470 Accepted
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34470 [200]: GET /
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34470 Closing
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34484 Accepted
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34484 [200]: GET /css/bootstrap.min.css
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34484 Closing
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34490 Accepted
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34500 Accepted
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34504 Accepted
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34490 [200]: GET /css/style.css
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34490 Closing
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34500 [200]: GET /img/laminas-logo.svg
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34500 Closing
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34504 [200]: GET /js/bootstrap.min.js
+[Thu Oct 16 09:58:26 2025] 127.0.0.1:34504 Closing
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34506 Accepted
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34506 [200]: GET /application/about
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34506 Closing
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34514 Accepted
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34514 [200]: GET /css/bootstrap.min.css
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34514 Closing
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34520 Accepted
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34536 Accepted
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34550 Accepted
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34520 [200]: GET /css/style.css
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34520 Closing
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34536 [200]: GET /img/laminas-logo.svg
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34536 Closing
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34550 [200]: GET /js/bootstrap.min.js
+[Thu Oct 16 09:58:29 2025] 127.0.0.1:34550 Closing

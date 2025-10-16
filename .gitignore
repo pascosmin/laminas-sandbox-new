@@ -6,3 +6,7 @@ config/development.config.php
 data/cache/*
 !data/cache/.gitkeep
 phpunit.xml
+
+# Local dev server artifacts
+data/php-server.log
+data/php-server.pid

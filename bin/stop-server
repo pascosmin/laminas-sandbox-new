@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Stops the PHP built-in web server started by bin/start-server using PID file
+PIDFILE="data/php-server.pid"
+
+if [ ! -f "$PIDFILE" ]; then
+  echo "No PID file found at $PIDFILE. Server may not be running."
+  exit 0
+fi
+
+PID=$(cat "$PIDFILE" 2>/dev/null || true)
+if [ -z "$PID" ]; then
+  echo "PID file is empty. Removing file."; rm -f "$PIDFILE"; exit 0
+fi
+
+if kill -0 "$PID" >/dev/null 2>&1; then
+  kill "$PID"
+  sleep 1
+  if kill -0 "$PID" >/dev/null 2>&1; then
+    echo "Process did not exit, sending SIGKILL"
+    kill -9 "$PID" || true
+  fi
+  echo "Stopped server (PID $PID)"
+else
+  echo "No process with PID $PID. Removing stale PID file."
+fi
+
+rm -f "$PIDFILE"

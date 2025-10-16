@@ -52,6 +52,8 @@
             "Composer\\Config::disableProcessTimeout",
             "php -S 0.0.0.0:8080 -t public"
         ],
+        "start-server": "bash bin/start-server",
+        "stop-server": "bash bin/stop-server",
         "test": "vendor/bin/phpunit",
         "static-analysis": "vendor/bin/psalm --stats"
     },

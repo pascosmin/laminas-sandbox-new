@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Starts the PHP built-in web server in background and writes the PID to data/php-server.pid
+PIDFILE="data/php-server.pid"
+LOGFILE="data/php-server.log"
+HOST="0.0.0.0"
+PORT="8080"
+DOCROOT="public"
+
+mkdir -p "$(dirname "$PIDFILE")"
+
+if [ -f "$PIDFILE" ]; then
+  PID=$(cat "$PIDFILE" 2>/dev/null || true)
+  if [ -n "$PID" ] && kill -0 "$PID" >/dev/null 2>&1; then
+    echo "Server already running with PID $PID"
+    exit 0
+  else
+    echo "Stale PID file found, removing"
+    rm -f "$PIDFILE"
+  fi
+fi
+
+nohup php -S "$HOST:$PORT" -t "$DOCROOT" > "$LOGFILE" 2>&1 &
+echo $! > "$PIDFILE"
+echo "Started PHP built-in server on $HOST:$PORT (PID $(cat "$PIDFILE")), logs: $LOGFILE"

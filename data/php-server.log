@@ -1,0 +1,19 @@
+[Thu Oct 16 09:56:14 2025] PHP 8.2.29 Development Server (http://0.0.0.0:8080) started
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54912 Accepted
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54912 [200]: GET /
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54912 Closing
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54914 Accepted
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54914 [200]: GET /css/bootstrap.min.css
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54914 Closing
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54928 Accepted
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54936 Accepted
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54942 Accepted
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54928 [200]: GET /css/style.css
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54928 Closing
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54936 [200]: GET /img/laminas-logo.svg
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54942 [200]: GET /js/bootstrap.min.js
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54936 Closing
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54942 Closing
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54954 Accepted
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54954 [200]: GET /img/favicon.ico
+[Thu Oct 16 09:56:46 2025] 127.0.0.1:54954 Closing
